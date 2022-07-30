@@ -1,0 +1,300 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#container {
+  width: 1366px;
+  height: 768px;
+  position: absolute;
+  overflow: hidden;
+}
+
+#gio1 {
+  width: 394px;
+  height: 478px;
+  background: url("img/gio1.png") no-repeat;
+  position: absolute;
+ left: 173px;
+    top: 234px;
+}
+
+#gio2 {
+  width: 364px;
+  height: 413px;
+  background: url("img/gio2.png") no-repeat;
+  position: absolute;
+  left: 816px;
+  top: 293px;
+}
+
+#title1 {
+  width: 284px;
+  height: 50px;
+  background: url("img/txt1.png") no-repeat;
+  position: absolute;
+  left: 214px;
+  top: 610px;
+}
+
+#title2 {
+  width: 284px;
+  height: 50px;
+  background: url("img/txt2.png") no-repeat;
+  position: absolute;
+  left: 856px;
+  top: 610px;
+}
+
+#cau_1,#cau_2,#cau_3,#cau_4,#cau_5,#cau_6,#cau_7 {
+  width: 122px;
+  height: 161px;
+  position: absolute;
+  cursor: pointer;
+}
+
+#cau_1,#cau_2,#cau_3,#cau_4 {
+  top: 30px;
+}
+
+#cau_1 {
+  background: url("img/da1.png") no-repeat;
+  left: 371px;
+}
+
+#cau_2 {
+  background: url("img/da2.png") no-repeat;
+  left: 551px;
+}
+
+#cau_3 {
+  background: url("img/da3.png") no-repeat;
+  left: 731px;
+}
+
+#cau_4 {
+  background: url("img/da4.png") no-repeat;
+  left: 907px;
+}
+
+#cau_5,
+#cau_6,
+#cau_7 {
+  top: 190px;
+  position: absolute;
+  cursor: pointer;
+}
+
+#cau_5 {
+  background: url("img/da5.png") no-repeat;
+  left: 446px;
+}
+
+#cau_6 {
+  background: url("img/da6.png") no-repeat;
+  left: 635px;
+}
+
+#cau_7 {
+  background: url("img/da7.png") no-repeat;
+  left: 817px;
+}
+
+#ochon1,
+#ochon2,
+#ochon3,
+#ochon4,
+#ochon5,
+#ochon6,
+#ochon7 {
+  width: 122px;
+  height: 161px;
+  position: absolute;
+}
+
+#ochon1 {
+  left: 294px;
+  top: 228px;
+}
+
+#ochon2 {
+  left: 172px;
+  top: 367px;
+}
+
+#ochon3 {
+  left: 294px;
+  top: 396px;
+}
+
+#ochon4 {
+      left: 421px;
+    top: 364px;
+}
+
+#ochon5 {
+  left: 938px;
+  top: 291px;
+}
+
+#ochon6 {
+      left: 837px;
+    top: 390px;
+}
+
+#ochon7 {
+  left: 1040px;
+  top: 387px;
+}
+
+#codinhl {
+  width: 246px;
+  height: 53px;
+  background: url("img/codinh.png") no-repeat;
+  position: absolute;
+  left: 247px;
+  top: 65px;
+  cursor: pointer;
+  display: none;
+}
+
+#kcodinhl {
+  width: 246px;
+  height: 53px;
+  background: url("img/kcodinh.png") no-repeat;
+  position: absolute;
+  left: 247px;
+  top: 137px;
+  cursor: pointer;
+  display: none;
+}
+
+#codinhr {
+  width: 246px;
+  height: 53px;
+  background: url("img/codinh.png") no-repeat;
+  position: absolute;
+  left: 875px;
+  top: 65px;
+  cursor: pointer;
+  display: none;
+}
+
+#kcodinhr {
+  width: 246px;
+  height: 53px;
+  background: url("img/kcodinh.png") no-repeat;
+  position: absolute;
+  left: 875px;
+  top: 137px;
+  cursor: pointer;
+  display: none;
+}
+
+#xanhkcd {
+  width: 246px;
+  height: 54px;
+  background: url("img/xanhkcd.png") no-repeat;
+  position: absolute;
+  left: 247px;
+  top: 137px;
+  display: none;
+}
+
+#xanhcd {
+  width: 246px;
+  height: 54px;
+  background: url("img/xanhcd.png") no-repeat;
+  position: absolute;
+  left: 875px;
+  top: 65px;
+  display: none;
+}
+
+#boxleft {
+  width: 274px;
+  height: 198px;
+  background: url("img/boxleft.png") no-repeat;
+  position: absolute;
+  left: 51px;
+  top: 47px;
+}
+
+#boxright {
+  width: 274px;
+  height: 198px;
+  background: url("img/boxright.png") no-repeat;
+  position: absolute;
+  left: 1066px;
+  top: 186px;
+  display: none;
+}
+
+#btnKiemtra {
+  width: 149px;
+  height: 46px;
+  background: url("img/kiemtra.png") no-repeat;
+  position: absolute;
+  z-index: 99;
+  cursor: pointer;
+  left: 608px;
+  top: 683px;
+  transition: 0.2s;
+  display: none;
+}
+#btnLL {
+  width: 169px;
+  height: 62px;
+  background: url("img/lamlai.png") no-repeat;
+  position: absolute;
+  z-index: 99;
+  cursor: pointer;
+  left: 608px;
+  top: 683px;
+  transition: 0.2s;
+  display: none;
+}
+#btnTT {
+  width: 169px;
+  height: 62px;
+  background: url("img/tieptuc.png") no-repeat;
+  position: absolute;
+  z-index: 9999999;
+  cursor: pointer;
+  left: 608px;
+  top: 683px;
+  transition: 0.2s;
+  display: none;
+}
+
+#btnKiemtra:hover, #btnLL:hover, #btnTT:hover,
+#codinhr:hover, #kcodinhr:hover {
+  transform: scale(1.02) !important;
+}
+#dung{
+  width: 368px;
+  height: 182px;
+  left: 519px;
+  top: 458px;
+  background: url("img/dung.png") no-repeat;
+  position: absolute;
+  z-index: 99;
+  display: none;
+}
+#sai{
+  width: 368px;
+  height: 162px;
+  left: 519px;
+  top: 458px;
+  background: url("img/sai.png") no-repeat;
+  position: absolute;
+  z-index: 99;
+  display: none;
+}
+#div_che {
+  width: 1366px;
+  height: 768px;
+  position: absolute;
+  z-index: 99999;
+  display: none;
+}

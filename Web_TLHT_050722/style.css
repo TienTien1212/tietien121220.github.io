@@ -1,0 +1,1388 @@
+#Header_Parent {
+    position: absolute;
+    width: 1366px;
+    height: 67px;
+    top: 0px;
+    left: 0px;
+    z-index: 9999999;
+}
+
+#Footer_Parent {
+    position: absolute;
+    width: 1366px;
+    height: 67px;
+    /*z-index: 999;*/
+}
+
+#divPupop {
+    position: absolute;
+    background: url("template/img1.png") no-repeat;
+    width: 737px;
+    height: 280px;
+    top: 206px;
+    left: 290px;
+    z-index: 999999999999;
+    display: none;
+}
+
+#btnTieptuc {
+    position: absolute;
+    background: url("template/btnTiepTuc.png") no-repeat;
+    width: 208px;
+    height: 53px;
+    top: 454px;
+    left: 562px;
+    z-index: 99999999999;
+    cursor: pointer;
+    display: none;
+}
+
+#btnTieptuc:hover {
+    transition: 2s;
+    transform: scale(1.1);
+}
+
+#den {
+    position: absolute;
+    background-color: #000000;
+    width: 1366px;
+    height: 768px;
+    opacity: 0.6;
+    z-index: 999999999;
+    display: none;
+}
+
+
+/*
+#txtTitle{
+   position: absolute;
+    width: 361px;
+    height: 67px;
+    top: 0px;
+    left: 0px;
+ 
+}
+*/
+
+#divController {
+    position: absolute;
+    width: 361px;
+    height: 67px;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+}
+
+
+/*/header
+*/
+
+#Logo_Left {
+    position: absolute;
+    width: 194px;
+    height: 47px;
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+    /* background: url("template/logo.png") no-repeat;*/
+}
+
+
+/* #tieude_slide5 {
+    position: absolute;
+    background: url("template/tieude_slide5.png");
+    width: 446px;
+    height: 39px;
+    top: 6px;
+    left: 196px;
+    z-index: 999999;
+} */
+
+
+/*
+btnShow menu
+*/
+
+#btnShowMenu {
+    position: absolute;
+    width: 30px;
+    height: 44px;
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+}
+
+#btnShowMenu_img {
+    position: absolute;
+    display: inline;
+    width: 100%;
+    height: 100%;
+    left: 1336px;
+    top: 23px;
+    cursor: pointer;
+}
+
+#btnShowMenu_img:hover {
+    opacity: 0.8;
+}
+
+#btnHideMenu {
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 44px;
+    z-index: 99999;
+    top: 0px;
+    left: 0px;
+}
+
+#btnHideMenu_img {
+    position: absolute;
+    display: inline;
+    width: 100%;
+    height: 100%;
+    left: 993px;
+    top: 23px;
+    cursor: pointer;
+}
+
+#btnHideMenu_img:hover {
+    opacity: 0.8;
+}
+
+#divMenu {
+    position: absolute;
+    width: 361px;
+    height: 44px;
+    top: 23px;
+    left: 1342px;
+    z-index: 9;
+    background: url("template/chucNangFull.png") no-repeat;
+}
+
+
+/*
+//footer
+*/
+
+#btnBack {
+    position: absolute;
+    width: 87px;
+    height: 76px;
+    top: 688px;
+    left: 1050px;
+    background: url("template/btnBack.png") no-repeat;
+    cursor: pointer;
+}
+
+#btnBack:hover {
+    opacity: 0.8;
+}
+
+#btnNext {
+    position: absolute;
+    width: 88px;
+    height: 76px;
+    top: 688px;
+    left: 1250px;
+    background: url("template/btnNext.png") no-repeat;
+    cursor: pointer;
+}
+
+#btnNext:hover {
+    opacity: 0.8;
+}
+
+#btnNext2 {
+    position: absolute;
+    width: 88px;
+    height: 76px;
+    top: 688px;
+    left: 1250px;
+    background: url("template/btnNext.png") no-repeat;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#btnNext2:hover {
+    opacity: 0.9;
+}
+
+#btnPause {
+    position: absolute;
+    width: 79px;
+    height: 70px;
+    top: 690px;
+    left: 1153px;
+    background: url("template/btn_Pause.png") no-repeat;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#btnPause:hover {
+    opacity: 0.8;
+}
+
+
+/*----------------------------------------------------
+-------CSS Mục lục-----------------------------
+---------------------------------------------
+------*/
+
+#parent_MucLuc {
+    display: none;
+}
+
+#parent_tbMucLuc {
+    position: absolute;
+    width: 484px;
+    height: 419px;
+    left: 54px;
+    top: 305px;
+    z-index: 999;
+    background: url("template/Mucluc_L1.png") no-repeat;
+}
+
+#parent_tbMucLuc {
+    position: absolute;
+    width: 484px;
+    height: 419px;
+    left: 54px;
+    top: 305px;
+    z-index: 999;
+    background: url("template/Mucluc_L1.png") no-repeat;
+}
+/*#scroll {
+    position: absolute;
+    width: 601px;
+    height: 370px;
+    left: -106px;
+    top: 110px;
+    z-index: 999;
+    overflow: auto;
+    overflow-x: hidden;
+    cursor: pointer;
+}
+
+
+/* width */
+
+ ::-webkit-scrollbar {
+    width: 20px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #cdcdcd;
+}
+
+#btnGioiThieu {
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    left: 24px;
+    top: 113px;
+    z-index: 9999999;
+    cursor: pointer;
+}
+
+#btnHDSD {
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 161px;
+    z-index: 9999999;
+    cursor: pointer;
+}
+
+#btnMucTieu {
+    position: absolute;
+    width: 409px;
+    height: 38px;
+    left: 27px;
+    top: 214px;
+    z-index: 9999999;
+    cursor: pointer;
+}
+
+#btnTongKet {
+    position: absolute;
+    width: 113px;
+    height: 33px;
+    left: 34px;
+    top: 512px;
+    z-index: 9999999;
+    cursor: pointer;
+}
+
+#btnTqt {
+    position: absolute;
+    height: 40px;
+    width: 393px;
+    top: 263px;
+    left: 31px;
+    cursor: pointer;
+    z-index: 9999999;
+}
+
+#btnSdkh {
+    position: absolute;
+    width: 200px;
+    height: 32px;
+    left: 33px;
+    top: 562px;
+    z-index: 9999999;
+    cursor: pointer;
+}
+
+
+/*#btnKTCuoi {
+    position: absolute;
+    height: 40px;
+    width: 393px;
+    top: 263px;
+    left: 31px;
+    cursor: pointer;
+
+}
+*/
+
+#btnGioiThieu:hover {
+    opacity: 0.3;
+    background-color: #f9d3bc;
+    /*-ms-transform: scale(1.1);
+    /* IE 9 
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 
+    transform: scale(1.1); */
+}
+
+#btnTqt:hover {
+    opacity: 0.3;
+    background-color: #f9d3bc;
+}
+
+#btnHDSD:hover {
+    opacity: 0.3;
+    background-color: #f9d3bc;
+}
+
+#btnTinhHuong:hover {
+    opacity: 0.3;
+    background-color: #f9d3bc;
+}
+
+#btnMucTieu:hover {
+    opacity: 0.3;
+    background-color: #f9d3bc;
+}
+
+#btnTongKet:hover {
+    opacity: 0.3;
+    background-color: #f9d3bc;
+}
+
+#btnSdkh:hover {
+    opacity: 0.3;
+    background-color: #f9d3bc;
+}
+#btnNd{
+    position: absolute;
+    display: none;
+ 
+}
+#btnNd2{
+    position: absolute;
+    display: none;
+}
+#btnNd3{
+    position: absolute;
+    display: none;
+}
+#btnNd4{
+    position: absolute;
+    display: none;
+}
+#btnNd5{
+    position: absolute;
+    display: none;
+}
+/*#tbMucLuc {
+    position: absolute;
+    width: 547px;
+    height: 1012px;
+    left: 13px;
+    top: 8px;
+    background: url("template/txtMucLuc.png") no-repeat;
+    z-index: 999;
+}
+*/
+
+#close_mucluc {
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    left: 560px;
+    top: 164px;
+    background: url("template/close_mucluc.png") no-repeat;
+    z-index: 999;
+    cursor: pointer;
+}
+
+#close_mucluc:hover {
+    opacity: 0.9;
+}
+
+
+/*
+    btnMucLuc
+
+    */
+
+
+/*    #btnMucLuc{
+        z-index: 9999;
+    }*/
+
+#btnMucLuc {
+    position: absolute;
+    width: 74px;
+    height: 60px;
+    top: 690px;
+    left: 22px;
+    background: url("template/btnShowMenu.png") no-repeat;
+    cursor: pointer;
+    z-index: 999;
+}
+
+#btnMucLuc_test {
+    position: absolute;
+    width: 74px;
+    height: 60px;
+    top: 690px;
+    left: 22px;
+    background: url("template/btnShowMenu.png") no-repeat;
+    cursor: pointer;
+    z-index: 999;
+    display: none;
+}
+
+#btnMucLuc:hover {
+    opacity: 0.8;
+}
+
+#btnMucLuc_hide {
+    position: absolute;
+    display: none;
+    width: 74px;
+    height: 60px;
+    top: 690px;
+    left: 22px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+
+/*-------create child menu click--------
+
+/*  */
+/* #Child_Menu_1,
+#Child_Menu_2,
+#Child_Menu_3 {
+    position: absolute;
+    display: inline;
+    height: 40px;
+    left: -6px;
+    opacity: 0;
+    background-color: #f9d3bc;
+    z-index: 9999;
+    cursor: pointer;
+}  */
+#Child_Menu_1_1 {
+    position: absolute;
+    background-color: #f9d3bc;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 89px;
+    opacity: 0;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+#Child_Menu_1_2 {
+    position: absolute;
+    background-color: #f9d3bc;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 138px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#Child_Menu_1_3 {
+    opacity: 0;
+    background-color: #f9d3bc;
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 188px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#Child_Menu_1_4 {
+    opacity: 0;
+    background-color: #f9d3bc;
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 240px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#Child_Menu_1_5 {
+    opacity: 0;
+    background-color: #f9d3bc;
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    top: 288px;
+    left: 29px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#Child_Menu_2_1 {
+    position: absolute;
+    background-color: #f9d3bc;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 89px;
+    opacity: 0;
+    z-index: 9999;
+    cursor: pointer;
+}
+#Child_Menu_2_2 {
+    position: absolute;
+    background-color: #f9d3bc;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 138px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#Child_Menu_2_3 {
+    opacity: 0;
+    background-color: #f9d3bc;
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 188px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#Child_Menu_2_4 {
+    opacity: 0;
+    background-color: #f9d3bc;
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 240px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#Child_Menu_2_5 {
+    opacity: 0;
+    background-color: #f9d3bc;
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    top: 288px;
+    left: 29px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#Child_Menu_3_1 {
+    position: absolute;
+    background-color: #f9d3bc;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 89px;
+    opacity: 0;
+    z-index: 9999;
+    cursor: pointer;
+}
+#Child_Menu_3_2 {
+    position: absolute;
+    background-color: #f9d3bc;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 138px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#Child_Menu_3_3 {
+    opacity: 0;
+    background-color: #f9d3bc;
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 188px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#Child_Menu_3_4 {
+    opacity: 0;
+    background-color: #f9d3bc;
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 240px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#Child_Menu_3_5 {
+    opacity: 0;
+    background-color: #f9d3bc;
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    top: 288px;
+    left: 29px;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+#Child_Menu_4_1 {
+    position: absolute;
+    background-color: #f9d3bc;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 89px;
+    opacity: 0;
+    z-index: 9999;
+    cursor: pointer;
+}
+#Child_Menu_4_2 {
+    position: absolute;
+    background-color: #f9d3bc;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 138px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#Child_Menu_4_3 {
+    opacity: 0;
+    background-color: #f9d3bc;
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 188px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#Child_Menu_4_4 {
+    opacity: 0;
+    background-color: #f9d3bc;
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 240px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#Child_Menu_4_5 {
+    opacity: 0;
+    background-color: #f9d3bc;
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    top: 288px;
+    left: 29px;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+#Child_Menu_5_1 {
+    position: absolute;
+    background-color: #f9d3bc;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 89px;
+    opacity: 0;
+    z-index: 9999;
+    cursor: pointer;
+}
+#Child_Menu_5_2 {
+    position: absolute;
+    background-color: #f9d3bc;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 138px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#Child_Menu_5_3 {
+    opacity: 0;
+    background-color: #f9d3bc;
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 188px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#Child_Menu_5_4 {
+    opacity: 0;
+    background-color: #f9d3bc;
+    position: absolute;
+    width: 403px;
+    height: 38px;
+    left: 29px;
+    top: 240px;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+/*#Child_Menu_TongKet{width: 200px;top: 1416px;}
+    #Child_Menu_KiemTra{width: 200px;top: 1463px; }
+    #Child_Sdkh{width: 200px;top: 1513px; }*/
+
+#Child_Menu_1_1:hover,
+#Child_Menu_1_2:hover,
+#Child_Menu_1_3:hover,
+#Child_Menu_1_4:hover,
+#Child_Menu_1_5:hover  {
+    opacity: 0.2;
+}
+#Child_Menu_2_1:hover,
+#Child_Menu_2_2:hover,
+#Child_Menu_2_3:hover,
+#Child_Menu_2_4:hover,
+#Child_Menu_2_5:hover  {
+    opacity: 0.2;
+}
+
+#Child_Menu_3_1:hover,
+#Child_Menu_3_2:hover,
+#Child_Menu_3_3:hover,
+#Child_Menu_3_4:hover,
+#Child_Menu_3_5:hover  {
+    opacity: 0.2;
+}
+#Child_Menu_4_1:hover,
+#Child_Menu_4_2:hover,
+#Child_Menu_4_3:hover,
+#Child_Menu_4_4:hover,
+#Child_Menu_4_5:hover  {
+    opacity: 0.2;
+}
+#Child_Menu_5_1:hover,
+#Child_Menu_5_2:hover,
+#Child_Menu_5_3:hover,
+#Child_Menu_5_4:hover {
+    opacity: 0.2;
+}
+/* tick */
+/* #check_t1{
+    position: absolute;
+    display: none;
+} */
+#t1_1,#t2_1,#t3_1,#t4_1,#t5_1 {
+    position: absolute;
+    background: url("template/daxem.png") no-repeat;
+    width:31px;
+    height: 28px;
+    left: 29px;
+    top:94px;
+    z-index: 9999;
+    cursor: pointer;
+   
+}
+#t1_1{
+    display: none;
+}
+#t1_2{
+    display: none;
+}
+#t1_3{
+    display: none;
+}
+#t1_4{
+    display: none;
+}
+#t1_5{
+    display: none;
+}
+#t2_1{
+    display: none;
+}
+#t2_2{
+    display: none;
+}
+#t2_3{
+    display: none;
+}
+#t2_4{
+    display: none;
+}
+#t2_5{
+    display: none;
+}
+#t3_1{
+    display: none;
+}
+#t3_2{
+    display: none;
+}
+#t3_3{
+    display: none;
+}
+#t3_4{
+    display: none;
+}
+#t3_5{
+    display: none;
+}
+#t4_1{
+    display: none;
+}
+#t4_2{
+    display: none;
+}
+#t4_3{
+    display: none;
+}
+#t4_4{
+    display: none;
+}
+#t4_5{
+    display: none;
+}
+#t5_1{
+    display: none;
+}
+#t5_2{
+    display: none;
+}
+#t5_3{
+    display: none;
+}
+#t5_4{
+    display: none;
+}
+#t5_5{
+    display: none;
+}
+#t1_2,#t2_2,#t3_2,#t4_2,#t5_2  {
+    position: absolute;
+    background: url("template/daxem.png") no-repeat;
+    width:31px;
+    height: 28px;
+    left: 29px;
+    top: 144px;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+#t1_3,#t2_3,#t3_3,#t4_3,#t5_3  {
+    background: url("template/daxem.png") no-repeat;
+    width:31px;
+    height: 28px;
+    position: absolute;
+    left: 29px;
+    top: 194px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#t1_4,#t2_4,#t3_4,#t4_4,#t5_4  {
+    background: url("template/daxem.png") no-repeat;
+    width:31px;
+    height: 28px;
+    position: absolute;
+    left: 29px;
+    top: 243px;
+    z-index: 9999;
+    cursor: pointer;
+}
+#t1_5,#t2_5,#t3_5,#t4_5,#t5_5  {
+    position: absolute;
+    background: url("template/daxem.png") no-repeat;
+    width:31px;
+    height: 28px;
+    top: 293px;
+    left: 29px;
+    z-index: 9999;
+    cursor: pointer;
+}
+/*
+#Child_Menu_1_1,
+#Child_Menu_1_2,
+#Child_Menu_1_3,
+#Child_Menu_2_1,
+#Child_Menu_2_2,
+#Child_Menu_2_3,
+#Child_Menu_3_1,
+#Child_Menu_3_2,
+#Child_Menu_3_3,
+#Child_Menu_4_1,
+#Child_Menu_4_2,
+#Child_Menu_4_3,
+#Child_Menu_4_4,
+#Child_Menu_4_5,
+#Child_Menu_4_6,
+#Child_Menu_4_7,
+#Child_Menu_4_8,
+#Child_Menu_4_9,
+#Child_Menu_5_1,
+#Child_Menu_5_2,
+#Child_Menu_5_3 {
+    position: absolute;
+    width: 351px;
+    height: 30px;
+    left: 14px;
+    opacity: 0;
+    background-color: #f9d3bc;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+#Child_Menu_1_1 {
+    top: 45px;
+}
+
+#Child_Menu_1_2 {
+    top: 80px;
+    width: 518px;
+    height: 70px;
+}
+
+#Child_Menu_1_3 {
+    top: 153px;
+    width: 286px;
+}
+
+#Child_Menu_2_1 {
+    top: 226px;
+    width: 386px;
+}
+
+#Child_Menu_2_2 {
+    top: 262px;
+    width: 386px;
+}
+
+#Child_Menu_2_3 {
+    top: 297px;
+    width: 286px;
+}
+
+#Child_Menu_3_1 {
+    width: 520px;
+    top: 369px;
+}
+
+#Child_Menu_3_2 {
+    top: 403px;
+    width: 443px;
+    height: 69px;
+}
+
+#Child_Menu_3_3 {
+    top: 477px;
+    width: 331px;
+}
+
+#Child_Menu_4_1 {
+    top: 547px;
+    width: 331px;
+}
+
+#Child_Menu_4_2 {
+    top: 586px;
+    width: 356px;
+}
+
+#Child_Menu_4_3 {
+    top: 619px;
+    width: 429px;
+}
+
+#Child_Menu_4_4 {
+    top: 656px;
+    width: 429px;
+}
+
+#Child_Menu_4_5 {
+    top: 691px;
+    width: 496px;
+}
+
+#Child_Menu_4_6 {
+    top: 728px;
+    width: 324px;
+}
+
+#Child_Menu_4_7 {
+    top: 763px;
+    width: 338px;
+}
+
+#Child_Menu_4_8 {
+    top: 801px;
+    width: 384px;
+}
+
+#Child_Menu_4_9 {
+    top: 817px;
+    width: 384px;
+}
+
+#Child_Menu_5_1 {
+    top: 909px;
+    width: 364px;
+}
+
+#Child_Menu_5_2 {
+    top: 945px;
+    width: 246px;
+}
+
+#Child_Menu_5_3 {
+    top: 981px;
+    width: 215px;
+}
+
+#Child_Menu_1_1:hover,
+#Child_Menu_1_2:hover,
+#Child_Menu_1_3:hover,
+#Child_Menu_1_4:hover,
+#Child_Menu_1_5:hover,
+#Child_Menu_2_1:hover,
+#Child_Menu_2_2:hover,
+#Child_Menu_2_3:hover,
+#Child_Menu_2_4:hover,
+#Child_Menu_3_1:hover,
+#Child_Menu_3_2:hover,
+#Child_Menu_3_3:hover,
+#Child_Menu_3_4:hover,
+#Child_Menu_3_5:hover,
+#Child_Menu_4_1:hover,
+#Child_Menu_4_2:hover,
+#Child_Menu_4_3:hover,
+#Child_Menu_4_4:hover,
+#Child_Menu_4_5:hover,
+#Child_Menu_4_6:hover,
+#Child_Menu_4_7:hover,
+#Child_Menu_4_8:hover,
+#Child_Menu_4_9:hover,
+#Child_Menu_5_1:hover,
+#Child_Menu_5_2:hover,
+#Child_Menu_5_3:hover {
+    opacity: 0.2;
+}
+
+
+/*
+//////divController
+*/
+
+.classCustom_Menu {
+    z-index: 999;
+    cursor: pointer;
+}
+
+#btnHome {
+    position: absolute;
+    width: 28px;
+    height: 24px;
+    background: url("template/btnHome.png") no-repeat;
+    top: 10px;
+    left: 40px;
+}
+
+#btnHome:hover {
+    opacity: 0.9;
+}
+
+#btnAttach {
+    position: absolute;
+    width: 33px;
+    height: 29px;
+    background: url("template/btnTaiLieu.png") no-repeat;
+    top: 9px;
+    left: 100px;
+}
+
+#btnAttach:hover {
+    opacity: 0.9;
+}
+
+#btnHelp {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("template/btnTroGiup.png") no-repeat;
+    top: 8px;
+    left: 161px;
+}
+
+#btnHelp:hover {
+    opacity: 0.9;
+}
+
+#btnReplay {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    background: url("template/btnReload.png") no-repeat;
+    top: 3px;
+    left: 217px;
+}
+
+#btnReplay:hover {
+    opacity: 0.9;
+}
+
+#btnFullScreen {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: url("template/btnFullScreen.png") no-repeat;
+    top: 7px;
+    left: 280px;
+}
+
+#btnFullScreen:hover {
+    opacity: 0.9;
+}
+
+
+/*table attachment 
+*/
+
+#tbAttachment {
+    position: absolute;
+    display: none;
+    width: 316px;
+    height: 491px;
+    left: 362px;
+    top: 44px;
+    background: url("template/tableAttach.png") no-repeat;
+    z-index: 999;
+}
+
+#btnClose_atm {
+    position: absolute;
+    display: none;
+    width: 102px;
+    height: 40px;
+    left: 160px;
+    top: 482px;
+    background: url("template/closeAtm.png") no-repeat;
+    z-index: 9999;
+}
+
+#btnClose_atm:hover {
+    opacity: 0.8;
+}
+
+
+/*tb help*/
+
+#tbHelp {
+    position: absolute;
+    display: none;
+    width: 906px;
+    height: 609px;
+    left: -780px;
+    top: 75px;
+    background: url("template/tbHelp.png") no-repeat;
+    z-index: 9999;
+}
+
+#btnClose_help {
+    position: absolute;
+    display: none;
+    width: 97px;
+    height: 97px;
+    left: 76px;
+    top: 48px;
+    background: url("template/btnClose_help_1.png") no-repeat;
+    z-index: 9999;
+}
+
+#btnClose_help:hover {
+    opacity: 0.9;
+}
+
+#pSoTrang {
+    font-family: arial;
+    font-size: 16px;
+    color: #ef0000;
+    z-index: 99;
+    position: absolute;
+    top: 751px;
+    left: -19px;
+    width: 150px;
+    height: 60px;
+    display: none;
+    text-align: center !important
+}
+
+#L1_P1:hover,
+#L1_P2:hover,
+#L1_P3:hover,
+#L1_P4:hover,
+#L1_P5:hover,
+#L2_P1:hover,
+#L2_P2:hover,
+#L2_P3:hover,
+#L2_P4:hover,
+#L2_P5:hover,
+#L3_P1:hover,
+#L3_P2:hover,
+#L3_P3:hover,
+#L3_P4:hover,
+#L3_P5:hover,
+#L4_P1:hover,
+#L4_P2:hover,
+#L4_P3:hover,
+#L4_P4:hover,
+#L4_P5:hover,
+#L5_P1:hover,
+#L5_P2:hover,
+#L5_P3:hover,
+#L5_P4:hover,
+#L5_P5:hover {
+    transform: scale(1.04);
+    color: #ec9e9e;
+}
+
+#L1_P1,
+#L1_P2,
+#L1_P3,
+#L1_P4,
+#L1_P5,
+#L2_P1,
+#L2_P2,
+#L2_P3,
+#L2_P4,
+#L2_P5,
+#L3_P1,
+#L3_P2,
+#L3_P3,
+#L3_P4,
+#L3_P5,
+#L4_P1,
+#L4_P2,
+#L4_P3,
+#L4_P4,
+#L4_P5,
+#L5_P1,
+#L5_P2,
+#L5_P3,
+#L5_P4,
+#L5_P5 {
+    position: absolute;
+    text-decoration: none;
+    font-family: AIAFont;
+    color: #585858;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.7;
+    left: 29px;
+    cursor: pointer;
+    display: none;
+}
+
+@font-face {
+    font-family: AIAFont;
+    src: url("font/SVN-Gotham\ Bold.otf");
+}
+
+#L1_P1,
+#L2_P1,
+#L3_P1,
+#L4_P1,
+#L5_P1 {
+    top: 58px;
+}
+
+#L1_P2,
+#L2_P2,
+#L3_P2,
+#L4_P2,
+#L5_P2 {
+    top: 100px;
+}
+
+#L1_P3,
+#L2_P3,
+#L3_P3,
+#L4_P3,
+#L5_P3 {
+    top: 140px;
+}
+
+#L1_P4,
+#L2_P4,
+#L3_P4,
+#L4_P4,
+#L5_P4 {
+    top: 180px;
+}
+
+#L1_P5,
+#L2_P5,
+#L3_P5,
+#L4_P5,
+#L5_P5 {
+    top: 220px;
+}

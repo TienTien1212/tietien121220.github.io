@@ -1,0 +1,211 @@
+body
+{
+	margin: 0 ;
+	padding: 0;
+}
+
+@font-face {
+  font-family: AIAFont;
+  src: url("font/SVN-Gilroy\ Regular.otf");  
+}
+
+#t1, #t2, #t3{
+    position: absolute;
+    background: url("img/tick.png") no-repeat;
+    width: 83px;
+    height: 83px;
+    left:624px;
+    z-index: 99999;
+    display: none;
+}
+#t1{
+    top: 150px;
+}
+#t2{
+    top:341px;
+}
+#t3{
+    top: 538px;
+}
+#x1, #x2, #x3{
+    position: absolute;
+    background: url("img/x.png") no-repeat;
+    width: 72px;
+    height: 70px;
+    left:624px;
+    z-index: 99999;
+    display: none;
+}
+#x1{
+    top: 150px;
+}
+#x2{
+    top:341px;
+}
+#x3{
+    top: 538px;
+}
+#img{
+    position: absolute;
+    background: url("img/img.png")  no-repeat;
+    width: 883px;
+    height:308px;
+    top: 158px;
+    left:242px;
+}
+#che{
+    position: absolute;
+    width: 1366px;
+    height:768px;
+    z-index: 999;
+    display: none;
+}
+
+#container
+{
+	position: relative;
+    width: 1366px;
+    height: 768px;
+    margin: 0 auto;
+    overflow: none;
+}
+#bg
+{	position: absolute;
+	width: 1366px;
+    height: 768px;
+}
+#img1, #img2, #img3{
+	position: absolute;
+	width: 294px;
+	height:195px;
+    left: 758px;
+	z-index: 9;
+    opacity: 0;
+
+}
+#img1{
+    top: 160px;
+	background: url("img/img1.png") no-repeat;
+}
+#img2{
+    top:349px;
+	background: url("img/img2.png") no-repeat;
+}
+#img3{
+    top: 519px;
+	background: url("img/img3.png") no-repeat;
+}
+#cau1{
+	position: absolute;
+	background: url("img/A.png") no-repeat;
+	width: 231px;
+	height:174px;
+	top: 158px;
+    left: 157px;
+	z-index: 9;
+
+}
+#cau2{
+	position: absolute;
+	background: url("img/B.png") no-repeat;
+	width: 231px;
+	height:174px;
+    top: 355px;
+	left: 157px;
+	z-index: 9;
+	
+}
+#cau3{
+	position: absolute;
+	background: url("img/C.png") no-repeat;
+	width: 231px;
+	height:174px;
+    top: 551px;
+	left: 157px;
+	z-index: 9;
+	
+}
+#drag1, #drag2, #drag3{
+	position: absolute;
+	width: 341px;
+	height:126px;
+    left:686px;
+	z-index: 99;
+	cursor: pointer;
+}
+#drag1{
+	background: url("img/drag_1.png");
+    top: 551px;
+	
+}
+#drag2{
+	background: url("img/drag_2.png");
+	top: 158px;
+}
+#drag3{
+	background: url("img/drag_3.png");
+	
+    top: 355px;
+}
+#dro1, #dro2, #dro3{
+	position: absolute;
+	width: 341px;
+	height:126px;
+    left:335px;
+	z-index: 99;
+	cursor: pointer;
+}
+#dro1{
+	
+	top: 182px;
+}
+#dro2{
+	
+	top: 379px;
+}
+#dro3{
+	
+	top: 574px;
+}
+
+#cauhoi{
+	position: absolute;
+	width: 636px;
+	height:35px;
+	background: url("img/cauhoi.png") no-repeat;
+	top:133px;
+    left: 389px;
+    opacity: 0;
+}
+
+
+#tieptuc:hover, #kiemtra:hover, #lamlai:hover{
+    transform: scale(1.07);
+}
+
+#tieptuc, #kiemtra, #lamlai{
+    position: absolute;
+    width: 169px;
+    height: 62px;
+	top: 394px;
+    left: 1092px;
+    cursor: pointer;
+    z-index: 99999;
+    transition: 1s;
+}
+#lamlai{
+    background: url("img/lamlai.png") no-repeat;
+    display: none;
+}
+#tieptuc{
+    background: url("img/tieptuc.png") no-repeat;
+    display: none;
+}
+#kiemtra{
+    background: url("img/kiemtra.png") no-repeat;
+    display: none;
+}
+
+
+
+

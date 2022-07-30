@@ -1,0 +1,187 @@
+body
+{
+	margin: 0 ;
+	padding: 0;
+}
+
+
+
+#container
+{
+	position: relative;
+            width: 1366px;
+            height: 768px;
+            margin: 0 auto;
+            overflow: none;
+}
+#bg
+{	position: absolute;
+	width: 1366px;
+	height:768px;
+	
+}
+
+   
+#tick_1{
+    position: absolute;
+    background: url("img/tick.png") no-repeat;
+    width: 195px;
+    height: 231px;
+    top: 329px;
+    left: 206px;
+    z-index: 99;
+    opacity: 0;
+    display: none;
+  
+   
+}
+
+#x_1{
+    position: absolute;
+    background: url("img/x.png") no-repeat;
+    width: 154px;
+    height: 167px;
+    top: 402px;
+    left: 214px;
+    z-index: 99;
+    opacity: 0;
+    display: none;
+  
+}
+/* #txt{
+    position: absolute;
+    background: url("img/txt.png") no-repeat;
+    width: 165px;
+    height: 144px;
+    top: 402px;
+    left: 124px;
+    z-index: 99;
+    opacity: 0;
+} */
+#cauhoi{
+    position: absolute;
+    background: url("img/cauhoi.png") no-repeat;
+    width:578px;
+    height:125px;
+    top: 138px;
+    left:630px;
+     opacity: 0;
+}
+
+
+#nv{
+    position: absolute;
+    background: url("img/nv.png") no-repeat;
+    width: 427px;
+    height:443px;
+	top: 260px;
+    left: 0px;
+    opacity: 0;
+   
+   
+}
+#kiemtra {
+    position: absolute;
+    background: url("img/kiemtra.png") no-repeat;
+    width: 213px;
+    height: 61px;
+    top: 670px;
+    left: 397px;
+    z-index: 9999;
+    display: none;
+    opacity: 0;
+    cursor: pointer;
+  
+}
+
+#tieptuc {
+    position: absolute;
+    background: url("img/tieptuc.png") no-repeat;
+    width: 213px;
+    height: 61px;
+    top: 670px;
+    left: 397px;
+    cursor: pointer;
+    display: none;
+    opacity: 0;
+    z-index: 9999;
+}
+
+#lamlai {
+    position: absolute;
+    background: url("img/lamlai.png") no-repeat;
+    width: 213px;
+    height: 61px;
+    top: 670px;
+    left: 397px;
+    cursor: pointer;
+    display: none;
+    opacity: 0;
+    z-index: 9999;
+}
+#che{
+    position: absolute;
+    width: 1366px;
+    height:768px;
+    z-index: 99;
+    display: none;
+}
+#kiemtra:hover, #tieptuc:hover, #lamlai:hover{
+    transform: scale(1.03);
+}
+
+
+#A{
+	position: absolute;
+	width: 611px;
+    height: 72px;
+	background: url("img/A.png") no-repeat;
+	top: 311px;
+    left: 590px;
+	cursor: pointer;
+	z-index: 9;
+    opacity: 0;
+   display: none;
+}
+#B{
+	position: absolute;
+    width: 611px;
+    height: 72px;
+	background: url("img/B.png") no-repeat;
+    top: 402px;
+    left: 590px;
+	cursor: pointer;
+	z-index: 9;
+    opacity: 0;
+    display: none;
+}
+#C{
+	position: absolute;
+	width: 611px;
+    height: 72px;
+	background: url("img/C.png") no-repeat;
+	top: 494px;
+    left: 590px;
+	cursor: pointer;
+	z-index: 9;
+    opacity: 0;
+    display: none;
+}
+
+#D{
+	position: absolute;
+	width: 611px;
+    height: 72px;
+	background: url("img/D.png") no-repeat;
+	top: 588px;
+    left: 590px;
+	cursor: pointer;
+	z-index: 9;
+    opacity: 0;
+    display: none;
+}
+#A:hover, #B:hover, #C:hover, #D:hover{
+	transform: scale(1.03);
+}
+
+

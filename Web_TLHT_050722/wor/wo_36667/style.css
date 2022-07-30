@@ -1,0 +1,227 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: relative;
+    width: 1366px;
+    height: 768px;
+    margin: 0 auto;
+    overflow: none;
+   
+}
+
+
+#bg {
+    position: absolute;
+    background:url("img/bg.png");
+    width: 1366px;
+    height: 768px;
+   
+}
+#che {
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+    z-index: 999999;
+    display: none;
+}
+
+
+#cauhoi{
+    background: url("img/cauhhoi.png") no-repeat;
+    width: 1085px;
+    height: 43px;
+    position: absolute;
+    top:13px;
+    left:10px;
+    z-index: 999999999;
+}
+#cau{
+    background: url("img/cautuot.png") no-repeat;
+    width: 543px;
+    height: 520px;
+    position: absolute;
+    top: 62px;
+    left: 502px;
+}
+
+
+#may{
+    position: absolute;
+    background: url("img/may.png") no-repeat;
+    width:339px;
+    height:219px;
+    top: 18px;
+    left: 99px;
+}
+#cay{
+    position: absolute;
+    background: url("img/cay.png") no-repeat;
+    width:309px;
+    height:382px;
+    top: 345px;
+    left: 86px;
+}
+#co{
+    position: absolute;
+    background: url("img/buicay.png") no-repeat;
+    width:636px;
+    height:189px;
+    top: 579px;
+    left: 0px;
+    z-index: 9;
+}
+#baby{
+    position: absolute;
+    background: url("img/baby.png") no-repeat;
+    width:239px;
+    height:271px;
+    top: 400px;
+    left: 925px;
+}
+#num_0:hover,#num_1:hover,#num_2:hover,#num_3:hover,#num_4:hover,#num_5:hover,#num_6:hover,#num_7:hover,#num_8:hover,#num_9:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+#num_0{
+    position: absolute;
+    background: url("img/0.png");
+    width: 111px;
+    height: 131px;
+    top: 79px;
+    left: 1164px;
+    cursor: pointer;
+}
+#num_1{
+    position: absolute;
+    background: url("img/1.png");
+    width: 56px;
+    height: 127px;
+    top: 409px;
+    left: 683px;
+    z-index: 9;
+    cursor: pointer;
+}
+#num_2{
+    position: absolute;
+    background: url("img/2.png");
+    width: 93px;
+    height: 128px;
+    top: 518px;
+    left: 409px;
+    cursor: pointer;
+}
+#num_3{
+    position: absolute;
+    background: url("img/3.png");
+    width: 94px;
+    height: 129px;
+    top: 280px;
+    left: 162px;
+    cursor: pointer;
+}
+#num_4{
+    position: absolute;
+    background: url("img/4.png");
+    width: 108px;
+    height: 127px;
+    top: 321px;
+    left: 985px;
+    cursor: pointer;
+}
+#num_5{
+    position: absolute;
+    background: url("img/5.png");
+    width: 95px;
+    height: 129px;
+    top: 563px;
+    left: 925px;
+    cursor: pointer;
+}
+#num_6{
+    position: absolute;
+    background: url("img/6.png");
+    width: 99px;
+    height: 131px;
+    top: 596px;
+    left: 0px;
+    z-index: 99;
+    cursor: pointer;
+}
+#num_7{
+    position: absolute;
+    background: url("img/7.png");
+    width: 91px;
+    height: 126px;
+    top: 28px;
+    left: 551px;
+    cursor: pointer;
+    z-index: 9999;
+}
+#num_8{
+    position: absolute;
+    background: url("img/8.png");
+    width: 97px;
+    height: 130px;
+    top: 137px;
+    left: 331px;
+    cursor: pointer;
+}
+#num_9{
+    position: absolute;
+    background: url("img/9.png");
+    width: 99px;
+    height: 131px;
+    top: 269px;
+    left: 482px;
+    cursor: pointer;
+}
+
+#chim{
+    position: absolute;
+    background: url("img/chim.png");
+    width: 135px;
+    height: 113px;
+    top: 97px;
+    left: 1045px;
+    z-index: 9;
+}
+#thongbao{
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+#bg_mo
+{	position: absolute;
+	width: 1366px;
+	height: 768px;
+	background-color: #fff;
+	opacity: 0.7;
+	
+}
+#pop{
+	position: absolute;
+	width:586px;
+	height:187px;
+	background: url("img/tb.png") no-repeat;
+	top:282px;
+    left: 399px;	
+}
+#tieptuc{
+	position: absolute;
+	width: 169px;
+	height: 64px;
+	background: url("img/tieptuc.png") no-repeat;
+	top:437px;
+    left: 598px;
+	z-index: 9;
+	cursor: pointer;
+	transition: 2s;
+
+
+}
+#tieptuc:hover{
+	transform: scale(1.05);
+}

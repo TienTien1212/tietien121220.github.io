@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: relative;
+    width: 1366px;
+    height: 768px;
+    margin: 0 auto;
+    overflow: none;
+   
+}
+/* #ngoisao{
+    position: absolute;
+    background: url("img/ngoiSao.png") no-repeat;
+    width:432px;
+    height: 412px;
+    top: -166px;
+    left: 907px;            
+    transform: scale(.1);
+    transition:  transform .5s;
+    z-index: 9999;
+} */
+
+#bg {
+    position: absolute;
+    background:url("img/bg.png");
+    width: 1365px;
+    height: 768px;
+   
+}
+#che {
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+    z-index: 999999;
+    display: none;
+}
+
+
+#txt{
+    background: url("img/txt1.png") no-repeat;
+    width: 567px;
+    height: 64px;
+    position: absolute;
+    top:54px;
+    left:10px;
+}
+#bus{
+    background: url("img/bus.png") no-repeat;
+    width: 442px;
+    height: 150px;
+    position: absolute;
+    top: 550px;
+    left: 912px;
+}
+#class1, #class2, #class3, #class4, #class5{
+    transform: scale(1);
+    transition:  transform .5s;
+}
+#class1, #class2, #class3, #class4, #class5,#may1,#may2,#may3,#may4,#may5,#bus,#txt{
+   display: none;
+   opacity: 0;
+}
+#class1 {
+    position: absolute;
+    background: url("img/1.png") no-repeat;
+    width:70px;
+    height:112px;
+    top: 235px;
+    left: 189px;
+    z-index: 999;
+    cursor: pointer;
+}
+#class2 {
+    position: absolute;
+    background: url("img/2.png") no-repeat;
+    width:70px;
+    height:112px;
+    top: 401px;
+    left: 483px;
+    z-index: 999;
+    cursor: pointer;
+}
+#class3 {
+    position: absolute;
+    background: url("img/3.png") no-repeat;
+    width:70px;
+    height:112px;
+    top: 151px;
+    left: 714px;
+    z-index: 999;
+    cursor: pointer;
+}
+#class4 {
+    position: absolute;
+    background: url("img/4.png") no-repeat;
+    width:70px;
+    height:112px;
+    top: 392px;
+    left: 987px;
+    z-index: 999;
+    cursor: pointer;
+}
+#class5 {
+    position: absolute;
+    background: url("img/5.png") no-repeat;
+    width:70px;
+    height:112px;
+    top: 168px;
+    left: 1177px;
+    z-index: 999;
+    cursor: pointer;
+}
+#class1:hover,#class2:hover, #class3:hover, #class4:hover, #class5:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+#may1{
+    position: absolute;
+    background: url("img/may1.png") no-repeat;
+    width:428px;
+    height:231px;
+    top: 150px;
+    left: 14px;
+}
+#may2{
+    position: absolute;
+    background: url("img/may2.png") no-repeat;
+    width:412px;
+    height:170px;
+    top: 400px;
+    left: 299px;
+}
+#may3{
+    position: absolute;
+    background: url("img/may3.png") no-repeat;
+    width:428px;
+    height:231px;
+    top: 90px;
+    left: 547px;
+}
+#may4{
+    position: absolute;
+    background: url("img/may4.png") no-repeat;
+    width:428px;
+    height:231px;
+    top: 380px;
+    left: 868px;
+}
+#may5{
+    position: absolute;
+    background: url("img/may5.png") no-repeat;
+    width:428px;
+    height:231px;
+    top: 182px;
+    left: 977px;
+}

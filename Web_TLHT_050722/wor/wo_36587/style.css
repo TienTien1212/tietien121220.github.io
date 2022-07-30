@@ -1,0 +1,450 @@
+body
+{
+	margin: 0 ;
+	padding: 0;
+}
+
+
+
+#container
+{
+	position: relative;
+            width: 1366px;
+            height: 768px;
+            margin: 0 auto;
+            overflow: none;
+}
+#bg
+{	position: absolute;
+	width: 1366px;
+	height:768px;
+	/*background-color: beige;*/
+}
+#tick_1{
+    position: absolute;
+    background: url("img/tick.png") no-repeat;
+    width: 60px;
+    height: 70px;
+    top: 160px;
+    left: 389px;
+    z-index: 99;
+    opacity: 0;
+    display: none;
+  
+}#tick_2{
+    position: absolute;
+    background: url("img/tick.png") no-repeat;
+    width: 60px;
+    height: 70px;
+    top: 285px;
+    left: 389px;
+    z-index: 99;
+    opacity: 0;
+    display: none;
+   
+}#tick_3{
+    position: absolute;
+    background: url("img/tick.png") no-repeat;
+    width: 60px;
+    height: 70px;
+    top: 410px;
+    left: 389px;
+    z-index: 99;
+    opacity: 0;
+    display: none;
+   
+}
+#tick_4{
+    position: absolute;
+    background: url("img/tick.png") no-repeat;
+    width: 60px;
+    height: 70px;
+    top: 512px;
+    left: 389px;
+    z-index: 99;
+    opacity: 0;
+    display: none;
+   
+}
+#x_1{
+    position: absolute;
+    background: url("img/x.png") no-repeat;
+    width: 60px;
+    height: 70px;
+    top: 183px;
+    left: 389px;
+    z-index: 99;
+    opacity: 0;
+    display: none;
+  
+}#x_2{
+    position: absolute;
+    background: url("img/x.png") no-repeat;
+    width: 60px;
+    height: 70px;
+    top: 310px;
+    left: 389px;
+    z-index: 99;
+    opacity: 0;
+    display: none;
+   
+   
+}#x_3{
+    position: absolute;
+    background: url("img/x.png") no-repeat;
+    width: 60px;
+    height: 70px;
+    top: 430px;
+    left: 389px;
+    z-index: 99;
+    opacity: 0;
+    display: none;
+ 
+}
+#x_4{
+    position: absolute;
+    background: url("img/x.png") no-repeat;
+    width: 60px;
+    height: 70px;
+    top: 534px;
+    left: 389px;
+    z-index: 99;
+    opacity: 0;
+    display: none;
+ 
+}
+#cauhoi{
+    position: absolute;
+    background: url("img/cauhoi.png") no-repeat;
+    width: 940px;
+    height:58px;
+    top: 68px;
+    left:18px;
+    opacity: 0;
+}
+#line{
+    position: absolute;
+    background: url("img/line.png") no-repeat;
+    width: 984px;
+    height:1px;
+    top: 128px;
+    left:48px;
+}
+
+#nv{
+    position: absolute;
+    background: url("img/nv.png") no-repeat;
+    width: 297px;
+    height:308px;
+	top: 441px;
+    left: 1050px;
+   
+}
+#kiemtra {
+    position: absolute;
+    background: url("img/kiemtra.png") no-repeat;
+    width: 213px;
+    height: 61px;
+	top: 630px;
+    left: 252px;
+    z-index: 9999;
+    display: none;
+    opacity: 0;
+    cursor: pointer;
+  
+}
+
+#tieptuc {
+    position: absolute;
+    background: url("img/tieptuc.png") no-repeat;
+    width: 213px;
+    height: 61px;
+    top: 630px;
+    left: 252px;
+    cursor: pointer;
+    display: none;
+    opacity: 0;
+    z-index: 9999;
+}
+
+#lamlai {
+    position: absolute;
+    background: url("img/lamlai.png") no-repeat;
+    width: 213px;
+    height: 61px;
+    top: 630px;
+    left: 252px;
+    cursor: pointer;
+    display: none;
+    opacity: 0;
+    z-index: 9999;
+}
+#che{
+    position: absolute;
+    width: 1366px;
+    height:768px;
+    z-index: 99;
+    display: none;
+}
+#kiemtra:hover, #tieptuc:hover, #lamlai:hover{
+    transform: scale(1.1);
+}
+#chon1{
+	position: absolute;
+	width:634px;
+	height:72px;
+	background: url("img/01.png") no-repeat;
+	top: 170px;
+    left: 404px;
+	cursor: pointer;
+	z-index: 9;
+	
+}
+
+
+#chon2{
+	position: absolute;
+    width:634px;
+	height:87px;
+	background: url("img/02.png") no-repeat;
+	top: 272px;
+    left: 404px;
+	cursor: pointer;
+	z-index: 9;
+	
+}
+#chon3{
+	position: absolute;
+	width:634px;
+	height:103px;
+	background: url("img/03.png") no-repeat;
+	top: 377px;
+    left: 404px;
+	cursor: pointer;
+	z-index: 9;
+
+}
+#chon4{
+	position: absolute;
+	width:634px;
+	height:100px;
+	background: url("img/04.png") no-repeat;
+	top: 496px;
+	left: 404px;
+	cursor: pointer;
+	z-index: 9;
+
+}
+#A{
+	position: absolute;
+	width: 274px;
+    height: 72px;
+	background: url("img/A.png") no-repeat;
+	top: 170px;
+    left: 57px;
+	cursor: pointer;
+	z-index: 9;
+}
+#B{
+	position: absolute;
+	width: 274px;
+    height: 72px;
+	background: url("img/B.png") no-repeat;
+	top: 283px;
+    left: 57px;
+	cursor: pointer;
+	z-index: 9;
+}
+#C{
+	position: absolute;
+	width: 274px;
+    height: 72px;
+	background: url("img/C.png") no-repeat;
+	top: 397px;
+    left: 57px;
+	cursor: pointer;
+	z-index: 9;
+}
+#D{
+	position: absolute;
+	width: 274px;
+    height: 72px;
+	background: url("img/D.png") no-repeat;
+	top: 507px;
+    left: 57px;
+	cursor: pointer;
+	z-index: 9;
+}
+
+
+#A:hover, #B:hover, #C:hover, #D:hover{
+	transform: scale(1.03);
+}
+#chon1:hover, #chon2:hover, #chon3:hover, #chon4:hover{
+    opacity: 0.8;
+}
+#khung{
+	position: absolute;
+	width: 718px;
+    height: 215px;
+	background: url("img/khung.png") no-repeat;
+	top: 89px;
+	left: 473px;
+}
+
+#A_A{
+	position: absolute;
+	width: 83px;
+    height: 6px;
+	background: url("img/A_A.png");
+    top: 200px;
+    left: 320px;
+    opacity: 0;
+	
+}
+#A_B{
+	position: absolute;
+	width: 91px;
+    height: 122px;
+    background: url('img/A_B.png');
+    top: 198px;
+    left: 326px;
+    opacity: 0;
+	
+}
+#A_C{
+	position: absolute;
+	width: 91px;
+    height: 236px;
+    background: url('img/A_C.png');
+    top: 198px;
+    left: 323px;
+    opacity: 0;
+	
+}
+#A_D{
+	position: absolute;
+	width: 90px;
+    height: 353px;
+    background: url('img/A_D.png');
+    top: 198px;
+    left: 323px;
+    opacity: 0;
+	
+}
+#B_A{
+	position: absolute;
+	width: 92px;
+    height: 113px;
+    background: url("img/B_A.png");
+    top: 199px;
+    left: 321px;
+    opacity: 0;
+	
+}
+#B_B{
+	position: absolute;
+	width: 91px;
+    height: 6px;
+	background: url("img/B_B.png");
+    top: 312px;
+    left: 321px; 
+    opacity: 0;
+	
+}
+#B_C{
+	position: absolute;
+	width: 90px;
+    height: 125px;
+	background: url("img/B_C.png");
+    top: 309px;
+    left: 321px;
+    opacity: 0;
+	
+}
+#B_D{
+	position: absolute;
+	width: 92px;
+    height:241px;
+	background: url("img/B_D.png");
+    top: 309px;
+    left: 321px;
+    opacity: 0;
+	
+}
+
+#C_A{
+	position: absolute;
+    width: 89px;
+    height: 231px;
+    background: url('img/C_A.png');
+    top: 197px;
+    left: 320px;
+    opacity: 0;
+	
+}
+#C_B{
+	position: absolute;
+    background: url("img/C_B.png");
+	width: 91px;
+    height: 122px;
+    top: 315px;
+    left: 316px;
+    opacity: 0;
+}
+#C_C{
+	position: absolute;
+    background: url('img/C_C.png');
+	width: 91px;
+    height:6px;
+	top:428px;
+    left: 320px;
+    opacity: 0;
+}
+#C_D{
+	position: absolute;
+    background: url('img/C_D.png');
+    width: 91px;
+    height: 119px;
+    top: 428px;
+    left: 324px;
+    opacity: 0;
+}
+#D_A{
+	position: absolute;
+    background: url('img/D_A.png');
+    width: 91px;
+    height: 336px;
+    top: 202px;
+    left: 318px;
+    opacity: 0;
+}
+#D_B{
+	position: absolute;
+    background: url("img/D_B.png");
+	width: 92px;
+    height: 233px;
+    top: 315px;
+    left: 319px;
+    opacity: 0;
+}
+#D_C{
+	position: absolute;
+    background: url('img/D_C.png');
+	width: 90px;
+    height:119px;
+	top:428px;
+    left: 320px;
+    opacity: 0;
+   
+}
+#D_D{
+	position: absolute;
+    background: url('img/D_D.png');
+    width: 91px;
+    height: 6px;
+    top: 540px;
+    left: 324px;
+    opacity: 0;
+}
+

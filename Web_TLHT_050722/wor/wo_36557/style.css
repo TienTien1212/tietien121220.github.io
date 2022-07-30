@@ -1,0 +1,253 @@
+body
+{
+	margin: 0 ;
+	padding: 0;
+}
+
+
+
+#container
+{
+	position: relative;
+            width: 1366px;
+            height: 768px;
+            margin: 0 auto;
+            overflow: none;
+}
+#bg
+{	position: absolute;
+	width: 1366px;
+	height:768px;
+	/*background-color: beige;*/
+}
+#so{
+    position: absolute;
+    background: url("img/so.png") no-repeat;
+    width: 13px;
+    height: 32px;
+    top: 109px;
+    left: 553px;
+    opacity: 0;
+}
+
+   
+#tick_3{
+    position: absolute;
+    background: url("img/tick.png") no-repeat;
+    width: 60px;
+    height: 70px;
+    top: 530px;
+    left: 29px;
+    z-index: 99;
+    opacity: 0;
+    display: none;
+   
+}
+
+#x_1{
+    position: absolute;
+    background: url("img/x.png") no-repeat;
+    width: 60px;
+    height: 70px;
+    top: 317px;
+    left: 29px;
+    z-index: 99;
+    opacity: 0;
+    display: none;
+  
+}#x_2{
+    position: absolute;
+    background: url("img/x.png") no-repeat;
+    width: 60px;
+    height: 70px;
+    top: 433px;
+    left: 29px;
+    z-index: 99;
+    opacity: 0;
+    display: none;
+   
+   
+}
+#cauhoi{
+    position: absolute;
+    background: url("img/cauhoi.png") no-repeat;
+    width: 691px;
+    height:171px;
+    top: 148px;
+    left: 167px;
+    opacity: 0;
+}
+
+#khung{
+	position: absolute;
+	width: 275px;
+    height: 61px;
+	background: url("img/khung.png") no-repeat;
+	top: 30px;
+	left:290px;
+    opacity: 0;
+}
+
+#nv{
+    position: absolute;
+    background: url("img/nv.png") no-repeat;
+    width: 427px;
+    height:443px;
+	top: 306px;
+    left: 950px;
+    opacity: 0;
+   
+}
+#kiemtra {
+    position: absolute;
+    background: url("img/kiemtra.png") no-repeat;
+    width: 213px;
+    height: 61px;
+    top: 661px;
+    left: 372px;
+    z-index: 9999;
+    display: none;
+    opacity: 0;
+    cursor: pointer;
+  
+}
+
+#tieptuc {
+    position: absolute;
+    background: url("img/tieptuc.png") no-repeat;
+    width: 213px;
+    height: 61px;
+    top: 661px;
+    left: 372px;
+    cursor: pointer;
+    display: none;
+    opacity: 0;
+    z-index: 9999;
+}
+
+#lamlai {
+    position: absolute;
+    background: url("img/lamlai.png") no-repeat;
+    width: 213px;
+    height: 61px;
+    top: 661px;
+    left: 372px;
+    cursor: pointer;
+    display: none;
+    opacity: 0;
+    z-index: 9999;
+}
+#che{
+    position: absolute;
+    width: 1366px;
+    height:768px;
+    z-index: 99;
+    display: none;
+}
+#kiemtra:hover, #tieptuc:hover, #lamlai:hover{
+    transform: scale(1.1);
+}
+
+
+#A{
+	position: absolute;
+	width: 357px;
+    height: 78px;
+	background: url("img/A.png") no-repeat;
+	top: 311px;
+    left: 141px;
+	cursor: pointer;
+	z-index: 9;
+    opacity: 0;
+    display: none;
+}
+#B{
+	position: absolute;
+    width: 365px;
+    height: 78px;
+	background: url("img/B.png") no-repeat;
+    top: 440px;
+    left: 141px;
+	cursor: pointer;
+	z-index: 9;
+    opacity: 0;
+    display: none;
+}
+#C{
+	position: absolute;
+	width: 365px;
+    height: 78px;
+	background: url("img/C.png") no-repeat;
+	top: 543px;
+    left: 141px;
+	cursor: pointer;
+	z-index: 9;
+    opacity: 0;
+    display: none;
+}
+
+
+#A:hover, #B:hover, #C:hover{
+	transform: scale(1.02);
+}
+#A_hover{
+	position: absolute;
+	width: 406px;
+    height: 107px;
+	background: url("img/hover_A.png") no-repeat;
+    top: 298px;
+    left: 119px;
+	cursor: pointer;
+	z-index: 9;
+    opacity: 0;
+    display: none;
+}
+#B_hover{
+	position: absolute;
+	width: 406px;
+    height: 107px;
+	background: url("img/hover_B.png") no-repeat;
+    top: 419px;
+    left: 119px;
+	cursor: pointer;
+	z-index: 9;
+    opacity: 0;
+    display: none;
+}
+#C_hover{
+	position: absolute;
+    width: 406px;
+    height: 107px;
+	background: url("img/hover_C.png") no-repeat;
+	top: 530px;
+    left: 119px;
+	cursor: pointer;
+	z-index: 9;
+    opacity: 0;
+    display: none;
+}
+
+#icon1, #icon2, #icon3{
+	position: absolute;
+	width: 20px;
+    height: 23px;
+	background: url("img/click.png") no-repeat;
+
+}
+#icon1{
+    top: 337px;
+    left: 80px;
+    opacity: 0;
+}
+#icon2{
+	
+    top: 452px;
+    left: 80px;
+    opacity: 0;
+}
+#icon3{
+
+	top: 571px;
+    left: 80px;
+    opacity: 0;
+}

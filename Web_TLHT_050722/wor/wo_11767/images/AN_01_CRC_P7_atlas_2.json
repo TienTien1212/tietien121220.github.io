@@ -1,0 +1,59 @@
+﻿{"frames": {
+
+"_01":
+{
+	"frame": {"x":0,"y":770,"w":893,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":893,"h":44},
+	"sourceSize": {"w":893,"h":44}
+},
+"_02":
+{
+	"frame": {"x":1622,"y":487,"w":287,"h":37},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":287,"h":37},
+	"sourceSize": {"w":287,"h":37}
+},
+"_03":
+{
+	"frame": {"x":1622,"y":441,"w":414,"h":44},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":414,"h":44},
+	"sourceSize": {"w":414,"h":44}
+},
+"bd":
+{
+	"frame": {"x":1368,"y":441,"w":252,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":95},
+	"sourceSize": {"w":252,"h":95}
+},
+"bg":
+{
+	"frame": {"x":0,"y":0,"w":1366,"h":768},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1366,"h":768},
+	"sourceSize": {"w":1366,"h":768}
+},
+"nv":
+{
+	"frame": {"x":1368,"y":0,"w":463,"h":439},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":463,"h":439},
+	"sourceSize": {"w":463,"h":439}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "20.5.1.31044",
+	"image": "AN_01_CRC_P7_atlas_2.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":1024},
+	"scale": "1"
+}
+}

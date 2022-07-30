@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: relative;
+    width: 1366px;
+    height: 768px;
+    margin: 0 auto;
+    overflow: none;
+}
+
+#bg {
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+}
+#nv{
+    position: absolute;
+    background: url("img/nv.png") no-repeat;
+    width:314px;
+    height: 315px;
+    top: 301px;
+    left: 965px;
+}
+
+#txt1{
+    position: absolute;
+    background: url("img/txt_mau.png") no-repeat;
+    width: 547px;
+    height: 37px;
+    top: 131px;
+    left: 222px;
+}
+
+#as_1,#as_2,#as_3{
+	position: absolute;
+    width: 78px;
+    height: 56px;
+	align-items: center;
+	font-size:49px;
+	font-family: AIAFont;
+	text-align: center;
+	border: 0px solid #b2b2b2;
+	background-color: transparent;
+	color: rgb(7, 7, 7);
+    overflow: none;
+}
+::placeholder { 
+	color:  rgb(123, 123, 123);
+
+}
+#as_1{
+    top: 9px;
+    left: 234px;
+}
+#as_2{
+    top: 615px;
+    left: 230px;
+}
+#as_3{
+    top: 1422px;
+    left: 354px;
+}
+#che{
+    position: absolute;
+    z-index: 99999;
+    display: none;
+}
+#che_1,#che_2, #che_3{
+    position: absolute;
+    width: 78px;
+    height: 56px;
+
+}
+#che_1{
+    top: 9px;
+    left: 234px;
+}
+#che_2{
+    top: 615px;
+    left: 230px;
+}
+#che_3{
+    top: 1422px;
+    left: 354px;
+}
+
+#che_4{
+    position: absolute;
+    width: 123px;
+    height: 64px;
+    left: 316px;
+    top: 961px;
+}
+input:focus-visible{
+	outline: none !important;
+	border-color: transparent;
+}
+#board1_Cbx1{
+    position: absolute;
+    text-align: center;
+    width: 123px;
+    height: 64px;
+    left: 316px;
+    top: 961px;
+    font-size: 40px;
+    border-radius: 5px;
+    font-family: AIAFont;
+    color: #58595b;
+    cursor: pointer;
+    z-index: 9;
+    /* -webkit-appearance: none; */
+   }
+
+#txt_Parent::-webkit-scrollbar {
+    width: 15px;
+ }
+ 
+ #txt_Parent::-webkit-scrollbar-track {
+     position: absolute;
+     background: url("img/01.png") no-repeat ;
+     width: 9px;
+     height:330px ;
+     border-radius: 5px;
+    
+ }
+ 
+ #txt_Parent::-webkit-scrollbar-thumb {
+     position: absolute;
+     background: url("img/scroll.png") no-repeat;
+     width: 9px;
+     height:199px ;
+     border-radius: 5px;
+     
+ }
+#txt_Parent{
+    position: absolute;
+    width: 693px;
+    height: 366px;
+    top: 218px;
+    left: 152px;
+    z-index: 9999;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#txt{
+    position: absolute;
+    background: url("img/txt1.png") no-repeat;
+    width:540px;
+    height:1600px;
+    top: -55px;
+    left: 21px;
+    cursor: pointer;
+    overflow: hidden;
+}
+li {
+    list-style-type: none !important;
+}
+#khung{
+    position: absolute;
+    background: url("img/img2.png") no-repeat;
+    width: 791px;
+    height: 541px;
+    top: 177px;
+    left: 81px;
+}
+#kiemtra,#tieptuc{
+    position: absolute;
+    width: 166px;
+    height: 48px;
+    top: 633px;
+    left: 408px;
+    cursor: pointer;
+    display: none;
+}
+#kiemtra{
+    background: url("img/kiemtra.png") no-repeat;
+}
+#tieptuc{
+    background: url("img/tieptuc.png") no-repeat;
+}
+#kiemtra:hover, #tieptuc:hover{
+    transition: 2s;
+    transform: scale(1.1);
+}
+#t1, #t2, #t3, #t4{
+    position: absolute;
+    background: url("img/tick_chon.png");
+    width:40px;
+    height: 41px;
+    display: none;
+}
+#x1, #x2, #x3, #x4{
+    position: absolute;
+    background: url("img/x.png") no-repeat;
+    width:40px;
+    height: 41px;
+    display: none;
+}
+#t1, #x1{
+    top: 9px;
+    left: 450px;
+}
+#t2, #x2{
+    top: 615px;
+    left:450px;
+}
+#t3, #x3{
+    left: 470px;
+    top: 961px;
+}
+#t4, #x4{
+    top: 1422px;
+    left:460px;
+}

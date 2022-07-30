@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: relative;
+    width: 1366px;
+    height: 768px;
+    margin: 0 auto;
+    overflow: none;
+
+   
+}
+
+#bg
+{	position: absolute;
+	width: 1366px;
+	height:768px;
+
+}
+#tick{
+    position: absolute;
+    background: url("img/tick.png") no-repeat;
+    width: 60px;
+    height: 70px;
+    top: 287px;
+    left: 605px;
+    opacity: 0;
+    display: none;
+}
+#x{
+    position: absolute;
+    background: url("img/x.png") no-repeat;
+    width: 60px;
+    height: 70px;
+    top: 299px;
+    left: 605px;
+    opacity: 0;
+    display: none;
+  
+}
+#che{
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+    z-index: 9;
+    display: none;
+}
+
+#nv{
+    position: absolute;
+    background: url("img/nv.png") no-repeat;
+    width: 475px;
+    height:462px;
+    top: 218px;
+    left: 857px;
+   
+}
+#kiemtra {
+    position: absolute;
+    background: url("img/kiemtra.png") no-repeat;
+    width: 213px;
+    height: 61px;
+    top: 619px;
+    left: 355px;
+    cursor: pointer;
+    display: none;
+    opacity: 0;
+   
+   
+}
+
+#tieptuc {
+    position: absolute;
+    background: url("img/tieptuc.png") no-repeat;
+    width: 213px;
+    height: 61px;
+    top: 619px;
+    left: 355px;
+    cursor: pointer;
+    display: none;
+    opacity: 0;
+    z-index: 999;
+}
+
+#lamlai {
+    position: absolute;
+    background: url("img/lamlai.png") no-repeat;
+    width: 213px;
+    height: 61px;
+    top: 619px;
+    left: 355px;
+    cursor: pointer;
+    display: none;
+    opacity: 0;
+    z-index: 999;
+}
+
+#kiemtra:hover, #tieptuc:hover, #lamlai:hover{
+    transform: scale(1.1);
+}
+#cauhoi {
+    position: absolute;
+    background: url("img/cauhoi.png") no-repeat;
+    width: 845px;
+    height: 245px;
+    top: 31px;
+    left: 91px;
+  
+}
+
+#dro1{
+
+    position: absolute;
+    background: url("img/dro.png") no-repeat;
+    width: 282px;
+    height: 79px;
+    top: 292px;
+    left: 316px;
+}
+
+#drag1{
+    position: absolute;
+    background: url("img/drag1.png") no-repeat ;
+    width: 282px;
+    height: 79px;
+    top: 401px;
+    left: 143px;
+    cursor: grabbing;
+    
+}
+#drag2{
+    position: absolute;
+    background: url("img/drag2.png") no-repeat ;
+    width: 282px;
+    height: 79px;
+    top: 401px;
+    left:470px;
+    cursor: grabbing;
+    
+}
+#drag3{
+    position: absolute;
+    background: url("img/drag3.png") no-repeat ;
+    width: 282px;
+    height: 79px;
+    top: 504px;
+    left: 143px;
+    cursor: grabbing;
+    
+}
+#drag4{
+    position: absolute;
+    background: url("img/drag4.png") no-repeat ;
+    width: 282px;
+    height: 79px;
+    top: 504px;
+    left:470px;
+    cursor: grabbing;
+    
+}
+
+
+
+

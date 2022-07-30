@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    position: relative;
+    width: 1366px;
+    height: 768px;
+    margin: 0 auto;
+    overflow: none;
+}
+
+#bg {
+    position: relative;
+    left: -45px;
+    width: 1469px;
+    height: 786px;
+    background: url("img/bg.png") no-repeat;
+    margin: 0 auto;
+}
+
+#bg_1 {
+    position: absolute;
+    background: url("img/01.png") no-repeat;
+    width: 1271px;
+    height: 689px;
+    top: 50px;
+    left: 85px;
+}
+
+#cauhoi {
+    position: absolute;
+    background: url("img/title1.png");
+    width: 860px;
+    height: 162px;
+    top: 87px;
+    left: 306px;
+}
+#che {
+    position: absolute;
+    width: 242px;
+    height: 242px;
+    top: 56px;
+    left: 227px;
+    z-index: 999999999;
+    display: none;
+    cursor: no-drop;
+}
+#icon {
+    position: absolute;
+    background: url("img/ochon.png") no-repeat;
+    width: 242px;
+    height: 242px;
+    top: 56px;
+    left: 227px;
+}
+#sticker{
+    position: absolute;
+    width: 174px;
+    height: 194px;
+    top: 86px;
+    left: 263px;
+}
+#contho {
+    position: absolute;
+    background: url("img/tho.png") no-repeat;
+    width: 174px;
+    height: 194px;
+    top: 335px;
+    left: 481px;
+    cursor:grab;
+}
+
+#conrua {
+    position: absolute;
+    background: url("img/rua.png") no-repeat;
+    width: 218px;
+    height: 135px;
+    top: 384px;
+    left: 786px;
+    cursor: grab;
+}
+
+#kiemtra {
+    position: absolute;
+    top: 591px;
+    left: 598px;
+    background: url("img/kiemtra.png") no-repeat;
+    width: 196px;
+    height: 96px;
+    cursor: pointer;
+    display: none;
+}
+#ditiep {
+    position: absolute;
+    top: 591px;
+    left: 598px;
+    background: url("img/tieptuc.png") no-repeat;
+    width: 196px;
+    height: 96px;
+    cursor: pointer;
+    display: none;
+}
+#lamlai {
+    position: absolute;
+    top: 591px;
+    left: 598px;
+    background: url("img/lamlai.png") no-repeat;
+    width: 196px;
+    height: 96px;
+    display: none;
+    cursor: pointer;
+}
+
+#dung {
+    position: absolute;
+    top: 269px;
+    left: 642px;
+    background: url("img/chinhxac.png") no-repeat;
+    width: 215px;
+    height: 37px;
+    display: none;
+}
+
+#ok {
+    position: absolute;
+    top: 210px;
+    left: 318px;
+    background: url("img/ok.png") no-repeat;
+    width: 108px;
+    height: 102px;
+    display: none;
+}
+
+#no {
+    position: absolute;
+    top: 245px;
+    left: 318px;
+    background: url("img/no.png") no-repeat;
+    width: 108px;
+    height: 102px;
+    display: none;
+}
+
+#sai {
+    background: url("img/chuadung.png") no-repeat;
+    position: absolute;
+    width: 334px;
+    height: 37px;
+    top: 269px;
+    left: 593px;
+    display: none;
+}
+#kiemtra:hover, #ditiep:hover, #lamlai:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}
